@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family:cursive;
+    width: auto;
+    height: 100%;
+    background: linear-gradient(to bottom right, #ff9966, #55aff9); /* Gradient from orange to red */
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+    font-size: 12px;
+}
+
+button {
+    margin-right: 10px;
+    background: linear-gradient(to right, #ff9966, #ff5e62); /* Gradient from orange to red */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: black solid 2px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: linear-gradient(to right, #ff5e62, #ff9966); /* Gradient from red to orange on hover */
+}
+
+p {
+    margin: 5px 0;
+}
+
